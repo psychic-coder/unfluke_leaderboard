@@ -6,12 +6,12 @@ const App = () => {
   const pink="#E27497";
   return (
     <div className="bg-slate-100">
-      <div className="container p-2 mx-auto rounded-md sm:p-4  flex flex-col w-full h-screen justify-center shadow-xl  cursor-pointer ">
-	<h2 className="mb-3 font-bold leading-tight text-center text-7xl transition-all duration-300 cursor-pointer hover:scale-125 animate-text bg-gradient-to-r from-[#00224D] via-[#5D0E41] to-[#A0153E] bg-clip-text text-transparent ">LeaderBoards</h2>
+      <div className="container p-2 mx-auto rounded-md sm:p-4  flex flex-col w-full h-screen justify-center shadow-xl  cursor-pointer overflow-hidden">
+	<h2 className="mb-3 font-bold leading-tight text-center text-7xl transition-all ease-in-out duration-500 cursor-pointer hover:scale-125 animate-text bg-gradient-to-r from-[#00224D] via-[#5D0E41] to-[#A0153E] bg-clip-text text-transparent">LeaderBoards</h2>
 	<div className="overflow-x-auto  ">
-		<table className="min-w-full text-xs border border-[#FFF1F1] ">
+		<table className="min-w-full text-xs border border-[#FFF1F1] transition duration-150 ease-in-out ">
 			<thead className="rounded-t-lg ">
-				<tr className="text-right border-2 border-[#E27497] bg-[#FDF7F9] shadow-xl p-2 overflow-hidden hover:shadow-2xl">
+				<tr className="text-right border-2 border-[#E27497] bg-[#FDF7F9] shadow-xl p-2 overflow-hidden hover:shadow-2xl transition duration-150 ease-in-out">
 					<th title="Ranking" className="p-3 text-left border-[#E27497] text-lg font-semibold transition duration-200 hover:scale-110 cursor-pointer">#</th>
 					<th title="Team name" className="p-3 text-left font-semibold text-lg transition duration-200 hover:scale-110 cursor-pointer">Team</th>
 					<th title="Wins" className="p-3 font-semibold text-lg  transition duration-200 hover:scale-110 cursor-pointer">Win %</th>
